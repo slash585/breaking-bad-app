@@ -1,9 +1,6 @@
 import "./App.css"
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
-
-function Home() {
-  return <h2>Home</h2>
-}
+import Home from './components/Home'
 
 function About() {
   return <h2>About</h2>
